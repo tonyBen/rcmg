@@ -1,0 +1,11 @@
+.project
+.pydevproject
+*/*.tar
+*/.nfs*
+.settings/*
+/target/*
+/logs/*
+.idea/*
+/ui/node_modules/*
+/ui/dist/*
+
