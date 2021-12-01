@@ -8,4 +8,5 @@
 .idea/*
 /ui/node_modules/*
 /ui/dist/*
+/backend/.idea*
 
