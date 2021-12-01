@@ -1,0 +1,34 @@
+global:
+  modules:  ['database','redis','es','rest']
+
+database:
+  dbtype: postgres
+  host: nancloud-onprem-06.calix.local
+  port: 5432
+  dbname: rcmg
+  username: rcmg_user
+  password: rcmg_pass
+  min_conn: 1
+  max_conn: 5
+
+es:
+  host: nancloud-onprem-02:9200
+
+redis:
+  host: 10.245.248.141:26379,10.245.248.142:26379,10.245.248.143:26379
+  master_name: mymaster
+  master_auth:  calix-redis-pass
+  index_name: 2
+
+email:
+  smtp_host: eng-smtp.calix.local
+  smtp_port:  25
+  username: admin@calix.com
+  password:
+
+rest:
+  port: 8080
+  host: 0.0.0.0
+  debug: false
+
+

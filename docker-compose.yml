@@ -1,0 +1,10 @@
+rcms-server:
+  image: rcmg_backend:latest
+  ports:
+    - "8080:8080"
+  volumes:
+    - "./config_server.yaml:/home/rcmg/code/config/config_server.yaml"
+rcms-ui:
+  image: rcmg_ui:latest
+  ports:
+    - "80:80"
