@@ -1,13 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd2ee06b-3248-470b-b247-78b18fb618af" name="Changes" comment="" />
+    <list default="true" id="fd2ee06b-3248-470b-b247-78b18fb618af" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/authz/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/authz/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/authz/org_mgmt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/authz/org_mgmt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/authz/user_mgmt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/authz/user_mgmt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/cronjob/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/cronjob/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/rest_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/rest_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/auth_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/auth_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/global_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/global_constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/initilize_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/initilize_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/web_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/web_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/config_server.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/config_server.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rcmg_server_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rcmg_server_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scheduleTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scheduleTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/cronjob/events.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/cronjob/events.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/cronjob/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/cronjob/extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/cronjob/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/cronjob/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/cronjob/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/cronjob/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/cronjob/web.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/cronjob/web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/database/es_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/database/es_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/database/postgres_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/database/postgres_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/database/redis_sentinel_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/database/redis_sentinel_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/database/redis_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/database/redis_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/database_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/database_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/file_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/file_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/notify/email_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/notify/email_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/rest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/rest/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/rest/api_modules/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/rest/api_modules/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/rest/api_modules/org_user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/rest/api_modules/org_user/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/rest/api_modules/org_user/api_org.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/rest/api_modules/org_user/api_org.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config_server.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config_server.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db_psql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../db_psql.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rcmg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../rcmg.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/database/create_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../scripts/database/create_database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/database/init_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../scripts/database/init_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/get-pip.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scripts/get-pip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/components/ImageCropper/utils/data2blob.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/components/ImageCropper/utils/data2blob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/components/ImageCropper/utils/effectRipple.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/components/ImageCropper/utils/effectRipple.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/components/ImageCropper/utils/language.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/components/ImageCropper/utils/language.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/components/ImageCropper/utils/mimes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/components/ImageCropper/utils/mimes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/store/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/utils/get-page-title.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/utils/get-page-title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/utils/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/utils/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/startup.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/startup.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/vue.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="21ayE1zlEAOT9iMI3DyQT83op3i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
