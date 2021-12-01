@@ -6,9 +6,12 @@
 /target/*
 /logs/*
 .idea/*
+*/.idea
+*/.idea/*
 /ui/node_modules/*
 /ui/dist/*
 /backend/.idea
 /backend/.idea/
+/backend/src/**.pyc
 */*.pyc
 
