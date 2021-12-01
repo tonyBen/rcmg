@@ -8,5 +8,6 @@
 .idea/*
 /ui/node_modules/*
 /ui/dist/*
-/backend/.idea*
+/backend/.idea*/*
+/backend/*.pyc
 
