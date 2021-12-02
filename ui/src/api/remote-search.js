@@ -8,9 +8,10 @@ export function searchUser(name) {
   })
 }
 
+
 export function transactionList(query) {
   return request({
-    url: '/vue-element-admin/transaction/list',
+    url: '/api/transaction/list',
     method: 'get',
     params: query
   })
