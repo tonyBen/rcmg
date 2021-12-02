@@ -31,7 +31,7 @@ def login():
     username=args['username']
     password=args['password']
     logger.info("Verify UserLogin: %s",username)
-    return jsonify({"code":200,"data":{"token":"asdfasdfasdfasdf12312313"}})
+    return jsonify({"code":200,"data":{"token":"asdfasdfasdfasdf12312313","username":username}})
 
 
 @blueprint_authz.route("/api/authz/user/info",methods=["GET","OPTIONS"])

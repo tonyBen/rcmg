@@ -6,5 +6,9 @@ rcms-server:
     - "./config_server.yaml:/home/rcmg/code/config/config_server.yaml"
 rcms-ui:
   image: rcmg_ui:latest
+  #  environment:
+  #    - VUE_APP_BASE_API="http://rcms-server/8080"
+  links:
+    - rcms-server
   ports:
     - "80:80"
