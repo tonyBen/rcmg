@@ -1,14 +1,22 @@
 rcms-server:
   image: rcmg_backend:latest
-  ports:
-    - "8080:8080"
+  #  ports:
+  #  - "8080:8080"
   volumes:
     - "./config_server.yaml:/home/rcmg/code/config/config_server.yaml"
+
+rcms-server_2:
+  image: rcmg_backend:latest
+  volumes:
+    - "./config_server.yaml:/home/rcmg/code/config/config_server.yaml"
+
 rcms-ui:
   image: rcmg_ui:latest
   #  environment:
   #    - VUE_APP_BASE_API="http://rcms-server/8080"
   links:
     - rcms-server
+    - rcms-server_2
   ports:
     - "80:80"
+    - "50050:50050"

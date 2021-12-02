@@ -31,10 +31,11 @@ build_image()
 		docker build -t rcmg_base:latest -f rcmg_backend_dockerbase .
 		cd - >/dev/null
 	fi
-	echo "docker build -t rcmg:latest ."
+	echo "docker build -t rcmg_backend:latest ."
 	cd backend>/dev/null
 	docker build -t rcmg_backend:latest .
 	cd ->/dev/null
+	echo "docker build -t rcmg_ui:latest ."
 	cd ui>/dev/null
 	docker build -t rcmg_ui:latest . 
 	cd ->/dev/null

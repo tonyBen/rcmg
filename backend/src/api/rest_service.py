@@ -93,11 +93,22 @@ class ServerException(Exception):
 
 @app.route('/', methods=('GET', 'POST'))
 def index():
-    #time.sleep(10)
-    return str(app.url_map)
+    func_list = {}
+    for rule in app.url_map.iter_rules():
+        if rule.endpoint != 'static':
+            desc=app.view_functions[rule.endpoint].__doc__
+            func_list[rule.rule] = "Method: [%s] Desc: [%s]"%(",".join(rule.methods),str(desc.replace('\n','')).strip() if desc else "")
+    return jsonify(func_list)
 
-@app.route('/test', methods=('GET', 'POST'))
-def test():
+@app.route('/test/<path:subpath>', methods=('GET', 'POST'))
+def test(subpath):
+    """
+    Desc: For Test,
+    :param orgId
+    :param orgName
+    :return List
+    """
     #import time
     #time.sleep(10)
-    return "test"
+    logger.info("headers:%s",request.headers)
+    return jsonify({"path":subpath,"remote_ip":request.remote_addr,"real_ip":request.headers.get("X-Real-IP"),"remote_user":request.remote_user,"localTime":request.args.get("time")})
