@@ -58,6 +58,7 @@
       <change beforePath="$PROJECT_DIR$/../ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/api/remote-search.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/api/remote-search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/api/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui/src/components/ImageCropper/utils/data2blob.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/components/ImageCropper/utils/data2blob.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui/src/components/ImageCropper/utils/effectRipple.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/components/ImageCropper/utils/effectRipple.js" afterDir="false" />
@@ -66,6 +67,7 @@
       <change beforePath="$PROJECT_DIR$/../ui/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/store/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/utils/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui/src/utils/get-page-title.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/utils/get-page-title.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/utils/request.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ui/src/utils/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/utils/validate.js" afterDir="false" />
@@ -98,10 +100,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/requirements.txt" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RunManager">
     <configuration name="rcmg_server_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -141,5 +144,21 @@
       <updated>1638193378448</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

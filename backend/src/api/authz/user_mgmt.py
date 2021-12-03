@@ -30,6 +30,7 @@ def login():
     args=request.args
     username=args['username']
     password=args['password']
+    logger.info(request.headers)
     logger.info("Verify UserLogin: %s",username)
     return jsonify({"code":200,"data":{"token":"asdfasdfasdfasdf12312313","username":username}})
 
