@@ -6,8 +6,7 @@
 /target/*
 /logs/*
 .idea/*
-**/.idea*
-*/.idea/*
+**/.idea/*
 backend/.idea/*
 /ui/node_modules/*
 /ui/dist/*
