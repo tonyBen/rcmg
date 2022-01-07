@@ -16,6 +16,7 @@ OPTIONS:
 	build		string 		only build the images & tag 
 	start		string		build & restart service
 	init		string		build & init database & start service
+        restart         string          restart service 
 EOF
 }
 
@@ -46,7 +47,7 @@ build_image()
 
 start_service()
 {
-	docker-compose up -d 
+	docker-compose up -d --scale rcms-server=2
 	echo "----------------------------------"
         docker ps -a 
 	echo "----------------------------------"
@@ -111,6 +112,9 @@ main()
 		reset_service
 	elif [ "$op" == "init" ];then
 		init_service
+        elif [ "$op" == "restart" ];then
+                stop_service
+		start_service
         else
 		usage
 		exit -1

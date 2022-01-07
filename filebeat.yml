@@ -1,0 +1,55 @@
+filebeat.inputs:
+- type: container
+  paths:
+    - '/var/lib/docker/containers/*/*.log'
+  processors:
+  - add_docker_metadata: ~
+  - drop_fields:
+      fields: ["container.labels.com_docker_compose_config-hash"]
+      ignore_missing: true
+  exclude_files: ['\.gz$']
+
+
+
+processors:
+        #- add_docker_metadata: ~
+- drop_fields:
+    fields: ["agent.ephemeral_id", "agent.version", "ecs.version","agent.type","agent.id","agent.hostname"]
+    ignore_missing: true
+
+filebeat.autodiscover:
+  providers:
+    - type: docker
+      #      hints.enabled: true
+      templates:
+        - condition:
+            contains:
+              docker.container.image: rcmg*
+          config:
+            - type: container
+              paths:
+                - /var/lib/docker/containers/${data.docker.container.id}/*.log
+              exclude_lines: ["^\\s+[\\-`('.|_]"]  # drop asciiart lines
+
+publisher_pipeline_disable_host: true
+
+output.elasticsearch:
+  hosts: ["10.245.242.242:9200","10.245.242.243:9200","10.245.242.244:9200"]      
+  index: "rcmg-%{+yyyy.MM.dd}"
+
+setup.template.name: "rcmg"
+setup.template.pattern: "rcmg-*"
+
+
+# Write Filebeat own logs only to file to avoid catching them with itself in docker log files
+logging.level: ERROR
+logging.to_files: false
+logging.to_syslog: false
+loggins.metrice.enabled: false
+logging.files:
+  path: /var/log/filebeat
+  name: filebeat
+  keepfiles: 7
+  permissions: 0644
+ssl.verification_mode: none
+setup.ilm.enabled: false

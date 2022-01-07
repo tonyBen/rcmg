@@ -5,10 +5,10 @@ rcms-server:
   volumes:
     - "./config_server.yaml:/home/rcmg/code/config/config_server.yaml"
 
-rcms-server_2:
-  image: rcmg_backend:latest
-  volumes:
-    - "./config_server.yaml:/home/rcmg/code/config/config_server.yaml"
+      #rcms-server_2:
+      #image: rcmg_backend:latest
+      #volumes:
+      #- "./config_server.yaml:/home/rcmg/code/config/config_server.yaml"
 
 rcms-ui:
   image: rcmg_ui:latest
@@ -16,7 +16,17 @@ rcms-ui:
   #    - VUE_APP_BASE_API="http://rcms-server/8080"
   links:
     - rcms-server
-    - rcms-server_2
+      #    - rcms-server_2
   ports:
     - "80:80"
     - "50050:50050"
+
+filebeat:
+  image: docker.elastic.co/beats/filebeat:7.5.0
+  user: root
+  #  environment:
+  #  - output.elasticsearch.hosts=["10.245.242.242:9200","10.245.242.243:9200","10.245.242.244:9200"]
+  volumes:
+    - "./filebeat.yml:/usr/share/filebeat/filebeat.yml"
+    - "/var/run/docker.sock:/var/run/docker.sock:ro"
+    - "/var/lib/docker/containers:/var/lib/docker/containers:ro"
